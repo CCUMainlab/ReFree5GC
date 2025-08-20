@@ -1,0 +1,52 @@
+info:
+  version: 1.0.3
+  description: SDPAF initial local configuration
+
+configuration:
+  sbi: # Service-based interface information
+    scheme: http # the protocol for sbi (http or https)
+    registerIPv4: 127.0.0.9 # IP used to register to NRF
+    bindingIPv4: 127.0.0.9  # IP used to bind the service
+    port: 8000 # Port used to bind the service
+    tls: # the local path of TLS key
+      pem: cert/ausf.pem # AUSF TLS Certificate
+      key: cert/ausf.key # AUSF TLS Private key
+  serviceNameList: # the SBI services provided by this AUSF, refer to TS 29.509
+    - nausf-auth # Nausf_UEAuthentication service
+    - nudm-sdm # Nudm_SubscriberDataManagement service
+    - npcf-smpolicycontrol   # Npcf_SMPolicyControl service
+    - npcf-policyauthorization # Npcf_PolicyAuthorization service
+  serviceList:
+    - serviceName: npcf-smpolicycontrol   # Npcf_SMPolicyControl service
+      suppFeat: 3fff # the features supported by Npcf_SMPolicyControl, name defined in TS 29.512 5.8-1, value defined in TS 29.571 5.2.2
+    - serviceName: npcf-policyauthorization # Npcf_PolicyAuthorization service
+  timeFormat: 2019-01-02 15:04:05 # time format of this PCF
+  defaultBdtRefId: BdtPolicyId-   # BDT Reference ID, indicating transfer policies of background data transfer.
+  nrfUri: http://127.0.0.10:8000 # a valid URI of NRF
+  nrfCertPem: cert/nrf.pem # NRF Certificate
+  plmnSupportList: # the PLMNs (Public Land Mobile Network) list supported by this AUSF
+    - mcc: 208 # Mobile Country Code (3 digits string, digit: 0~9)
+      mnc: 93  # Mobile Network Code (2 or 3 digits string, digit: 0~9)
+    - mcc: 123 # Mobile Country Code (3 digits string, digit: 0~9)
+      mnc: 45  # Mobile Network Code (2 or 3 digits string, digit: 0~9)
+  groupId: ausfGroup001 # ID for the group of the AUSF
+  eapAkaSupiImsiPrefix: false # including "imsi-" prefix or not when using the SUPI to do EAP-AKA' authentication
+  mongodb:       # the mongodb connected by this PCF
+    name: free5gc                  # name of the mongodb
+    url: mongodb://localhost:27017 # a valid URL of the mongodb
+  locality: area1 # Name of the location where a set of AMF, SMF, PCF and UPFs are located
+  # Non3gppDeregTimerValue: 600 # Default value for non-3GPP deregistration timer in seconds
+
+  # test data set from TS33501-f60 Annex C.4
+  SuciProfile: # Home Network Public Key ID = slice index +1
+    - ProtectionScheme: 1 # Protect Scheme: Profile A
+      PrivateKey: c53c22208b61860b06c62e5406a7b330c2b577aa5558981510d128247d38bd1d
+      PublicKey: 5a8d38864820197c3394b92613b20b91633cbd897119273bf8e4a6f4eec0a650
+    - ProtectionScheme: 2 # Protect Scheme: Profile B
+      PrivateKey: F1AB1074477EBCC7F554EA1C5FC368B1616730155E0041AC447D6301975FECDA
+      PublicKey: 0472DA71976234CE833A6907425867B82E074D44EF907DFB4B3E21C1C2256EBCD15A7DED52FCBB097A4ED250E036C7B9C8C7004C4EEDC4F068CD7BF8D3F900E3B4
+
+logger: # log output setting
+  enable: true # true or false
+  level: info # how detailed to output, value: trace, debug, info, warn, error, fatal, panic
+  reportCaller: false # enable the caller report or not, value: true or false

@@ -1,0 +1,527 @@
+Run TestGUTIRegistration
+os.Args: [/tmp/go-build100913369/b001/test.test -test.paniconexit0 -test.timeout=10m0s -test.v=true -test.run=TestGUTIRegistration]
+2025-06-16T01:37:17.687568781+08:00[36m [INFO][NRF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.687681756+08:00[36m [INFO][NRF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.687688021+08:00[36m [INFO][NRF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.687700568+08:00[36m [INFO][NRF][Init] [0mnrfconfig Info: Version[1.0.2] Description[NRF initial test configuration]
+2025-06-16T01:37:17.687714615+08:00[36m [INFO][NRF][SBI] [0mBinding addr: [127.0.0.10:8000]
+AMF Config failed: Invalid T3555: non zero value required
+2025-06-16T01:37:17.689770297+08:00[36m [INFO][AMF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.689779438+08:00[36m [INFO][AMF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.689782175+08:00[36m [INFO][AMF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.689942090+08:00[36m [INFO][AMF][SBI] [0mBinding addr: [127.0.0.18:8000]
+2025-06-16T01:37:17.695616557+08:00[36m [INFO][SMF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.695684152+08:00[36m [INFO][SMF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.695691890+08:00[36m [INFO][SMF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.695704315+08:00[36m [INFO][SMF][CTX] [0msmfconfig Info: Version[1.0.7] Description[SMF initial single test configuration]
+2025-06-16T01:37:17.695735107+08:00[36m [INFO][SMF][CTX] [0mEndpoints: [10.200.200.102]
+2025-06-16T01:37:17.696942412+08:00[36m [INFO][UDR][Util] [0mudrconfig Info: Version[1.1.0] Description[UDR initial test configuration]
+2025-06-16T01:37:17.697018100+08:00[36m [INFO][UDR][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.697037636+08:00[36m [INFO][UDR][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.697040846+08:00[36m [INFO][UDR][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.701371282+08:00[36m [INFO][PCF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.701460368+08:00[36m [INFO][PCF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.701467652+08:00[36m [INFO][PCF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.701474016+08:00[36m [INFO][PCF][Util] [0mpcfconfig Info: Version[1.0.2] Description[PCF initial test configuration]
+2025-06-16T01:37:17.701586015+08:00[36m [INFO][PCF][SBI] [0mBinding addr: [127.0.0.7:8000]
+2025-06-16T01:37:17.703377495+08:00[36m [INFO][UDM][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.703692600+08:00[36m [INFO][UDM][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.703695940+08:00[36m [INFO][UDM][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.703703367+08:00[36m [INFO][UDM][Util] [0mudmconfig Info: Version[1.0.3] Description[UDM initial test configuration]
+2025-06-16T01:37:17.703723017+08:00[36m [INFO][UDM][SBI] [0mBinding addr: [127.0.0.3:8000]
+2025-06-16T01:37:17.703741138+08:00[36m [INFO][NSSF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.703744124+08:00[36m [INFO][NSSF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.703745993+08:00[36m [INFO][NSSF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.703942909+08:00[36m [INFO][AUSF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.704001623+08:00[36m [INFO][AUSF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.704012710+08:00[36m [INFO][AUSF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.704027639+08:00[36m [INFO][AUSF][Init] [0mausfconfig Info: Version[1.0.3] Description[AUSF initial test configuration]
+ausf context =  &{{{0 0} {[] {} <nil>} map[] 0} {{0 0} {[] {} <nil>} map[] 0} 959fd59d-8b26-4af5-a922-c9de82a20abf ausfGroup001 8000 127.0.0.9 127.0.0.9 http://127.0.0.9:8000 http http://127.0.0.10:8000 ../cert/nrf.pem map[nausf-auth:{959fd59d-8b26-4af5-a922-c9de82a20abf nausf-auth 0xc00027ca08 http REGISTERED   0xc00027c9f0  [] <nil> [] [] <nil> 0 0 0 <nil> <nil>  }] [{208 93} {123 45}]  0xc000c69040 false false}
+2025-06-16T01:37:17.704143271+08:00[36m [INFO][AUSF][SBI] [0mBinding addr: [127.0.0.9:8000]
+2025-06-16T01:37:17.704510787+08:00[36m [INFO][CHF][Main] [0mLog enable is set to [true]
+2025-06-16T01:37:17.704556695+08:00[36m [INFO][CHF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:17.704562411+08:00[36m [INFO][CHF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:17.704565198+08:00[36m [INFO][CHF][Init] [0mchfconfig Info: Version[1.0.3] Description[CHF initial test configuration]
+2025-06-16T01:37:17.704582112+08:00[36m [INFO][CHF][SBI] [0mBinding addr: [127.0.0.113:8000]
+NfStart 9
+2025-06-16T01:37:17.704610339+08:00[36m [INFO][NRF][Init] [0mServer starting
+2025-06-16T01:37:17.704626529+08:00[36m [INFO][NRF][SBI] [0mSBI server started
+2025-06-16T01:37:17.904976703+08:00[36m [INFO][AMF][Util] [0mamfconfig Info: Version[1.0.9]
+2025-06-16T01:37:17.905032418+08:00[36m [INFO][AMF][Init] [0mServer started
+2025-06-16T01:37:17.905151011+08:00[36m [INFO][AMF][Ngap] [0mListen on 127.0.0.1:38412
+2025-06-16T01:37:17.906557214+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:17.909724941+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:17.923682145+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: ef75c36b-9618-4306-a996-03b1cbab92c1
+2025-06-16T01:37:17.925823346+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/ef75c36b-9618-4306-a996-03b1cbab92c1 |  |
+2025-06-16T01:37:17.926039699+08:00[36m [INFO][AMF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:17.926192710+08:00[36m [INFO][AMF][SBI] [0mStart SBI server (listen on 127.0.0.18:8000)
+2025-06-16T01:37:18.106314258+08:00[36m [INFO][SMF][Init] [0mServer started
+2025-06-16T01:37:18.108404320+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:18.112114942+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:18.112939814+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: 40376d1a-f7f3-455c-92eb-1e0e890bdc37
+2025-06-16T01:37:18.113529679+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/40376d1a-f7f3-455c-92eb-1e0e890bdc37 |  |
+2025-06-16T01:37:18.113761470+08:00[36m [INFO][SMF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:18.113832271+08:00[36m [INFO][SMF][Init] [0mSMF Registration to NRF {40376d1a-f7f3-455c-92eb-1e0e890bdc37 SMF REGISTERED 0 0xc0005b4b10 0xc0005b4b28 [] []   [127.0.0.2] [] <nil> [] [] <nil> 0 0 0 area1 <nil> <nil> <nil> <nil> 0xc000cab440 <nil> <nil> <nil> <nil> <nil> map[oauth2:false] <nil> false 0xc0005b4a68 false false []}
+2025-06-16T01:37:18.113946759+08:00[36m [INFO][SMF][PFCP] [0mListen on 10.200.200.1:8805
+2025-06-16T01:37:18.113998418+08:00[36m [INFO][SMF][PFCP] [0mPfcp running... [2025-06-16 01:37:18.113992033 +0800 CST m=+0.464225223]
+2025-06-16T01:37:18.114027045+08:00[36m [INFO][SMF][SBI] [0mStart SBI server (listen on 127.0.0.2:8000)
+2025-06-16T01:37:18.310952287+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:18.314518366+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:18.314941086+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: a12c43e1-0397-4709-b3ac-fb8a76347452
+2025-06-16T01:37:18.315496040+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/a12c43e1-0397-4709-b3ac-fb8a76347452 |  |
+2025-06-16T01:37:18.315678334+08:00[36m [INFO][UDR][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:18.315724701+08:00[36m [INFO][UDR][Init] [0mregister to NRF successfully
+2025-06-16T01:37:18.315730527+08:00[36m [INFO][UDR][Init] [0mServer started
+2025-06-16T01:37:18.315737721+08:00[36m [INFO][UDR][Init] [0mUDR Config Info: Version[1.1.0] Description[UDR initial test configuration]
+2025-06-16T01:37:18.315747399+08:00[36m [INFO][UDR][SBI] [0mStarting server...
+2025-06-16T01:37:18.510054979+08:00[36m [INFO][PCF][Init] [0mServer started
+2025-06-16T01:37:18.511013965+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:18.514474621+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:18.514925717+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: c1d09881-271e-429f-8944-e4d990016d3c
+2025-06-16T01:37:18.515556064+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/c1d09881-271e-429f-8944-e4d990016d3c |  |
+2025-06-16T01:37:18.515806583+08:00[36m [INFO][PCF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:18.515895513+08:00[36m [INFO][PCF][SBI] [0mStart SBI server (listen on 127.0.0.7:8000)
+2025-06-16T01:37:18.711279255+08:00[36m [INFO][UDM][Init] [0mServer started
+2025-06-16T01:37:18.711314016+08:00[36m [INFO][UDM][SBI] [0mStarting server...
+2025-06-16T01:37:18.712547372+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:18.715948847+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:18.717007826+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: 5566b0b9-d921-4532-aa65-106bc6636abd
+2025-06-16T01:37:18.717702931+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/5566b0b9-d921-4532-aa65-106bc6636abd |  |
+2025-06-16T01:37:18.718403392+08:00[36m [INFO][UDM][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:18.718505149+08:00[36m [INFO][UDM][SBI] [0mStart SBI server (listen on 127.0.0.3:8000)
+2025-06-16T01:37:18.913822249+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:18.917695880+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:18.919204059+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: 7386b557-7777-4dd7-b3ad-69565e33645c
+2025-06-16T01:37:18.920415491+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/7386b557-7777-4dd7-b3ad-69565e33645c |  |
+2025-06-16T01:37:18.920699558+08:00[36m [INFO][NSSF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:18.920757287+08:00[36m [INFO][NSSF][Main] [0mregister to NRF successfully
+2025-06-16T01:37:18.920763865+08:00[36m [INFO][NSSF][SBI] [0mStarting server...
+2025-06-16T01:37:19.112160695+08:00[36m [INFO][AUSF][Init] [0mServer started
+2025-06-16T01:37:19.113164364+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:19.114104724+08:00[36m [INFO][SMF][Main] [0mSending PFCP Association Request to UPF[10.200.200.101]
+2025-06-16T01:37:19.115108339+08:00[36m [INFO][SMF][Main] [0mReceived PFCP Association Setup Accepted Response from UPF[10.200.200.101]
+2025-06-16T01:37:19.116389573+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:19.117499047+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: 959fd59d-8b26-4af5-a922-c9de82a20abf
+2025-06-16T01:37:19.119166631+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/959fd59d-8b26-4af5-a922-c9de82a20abf |  |
+2025-06-16T01:37:19.119468352+08:00[36m [INFO][AUSF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:19.119500785+08:00[36m [INFO][AUSF][SBI] [0mStart SBI server (listen on 127.0.0.9:8000)
+2025-06-16T01:37:19.314026640+08:00[36m [INFO][CHF][Init] [0mServer started
+2025-06-16T01:37:19.314586958+08:00[36m [INFO][CHF][Acct] [0mOpen Account Balance Management Server
+2025-06-16T01:37:19.316570412+08:00[36m [INFO][NRF][NFM] [0mHandle NFRegisterRequest
+2025-06-16T01:37:19.325243150+08:00[36m [INFO][NRF][NFM] [0murilist update
+2025-06-16T01:37:19.326252493+08:00[36m [INFO][NRF][NFM] [0mCreate NF Profile: 44a57f46-7b34-452c-bfb2-b134e31dec83
+2025-06-16T01:37:19.327932989+08:00[36m [INFO][NRF][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/44a57f46-7b34-452c-bfb2-b134e31dec83 |  |
+2025-06-16T01:37:19.328370193+08:00[36m [INFO][CHF][Main] [0mOAuth2 setting receive from NRF: false
+2025-06-16T01:37:19.328626651+08:00[36m [INFO][CHF][SBI] [0mStart SBI server (listen on 127.0.0.113:8000)
+=== RUN   TestGUTIRegistration
+2025-06-16T01:37:20.516944151+08:00[36m [INFO][AMF][Ngap] [0m[AMF] SCTP Accept from: 127.0.0.1:9487
+2025-06-16T01:37:20.517391654+08:00[36m [INFO][AMF][Ngap] [0mCreate a new NG connection for: 127.0.0.1:9487
+2025-06-16T01:37:20.517743717+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle NGSetupRequest
+2025-06-16T01:37:20.517944740+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mSend NG-Setup response
+2025-06-16T01:37:20.528660015+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle InitialUEMessage
+2025-06-16T01:37:20.528742728+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mNew RanUe [RanUeNgapID:1][AmfUeNgapID:1]
+2025-06-16T01:37:20.528771328+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0m5GSMobileIdentity ["SUCI":"suci-0-208-93-0-0-0-00007487", err: <nil>]
+2025-06-16T01:37:20.528806979+08:00[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000001]
+2025-06-16T01:37:20.528831782+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2025-06-16T01:37:20.528843903+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2025-06-16T01:37:20.528853480+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2025-06-16T01:37:20.528863135+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: SUCI[suci-0-208-93-0-0-0-00007487]
+2025-06-16T01:37:20.528874133+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2025-06-16T01:37:20.528883686+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2025-06-16T01:37:20.529560834+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.530271769+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&target-nf-type=AUSF |  |
+2025-06-16T01:37:20.530844798+08:00[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2025-06-16T01:37:20.530900970+08:00[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2025-06-16T01:37:20.531175303+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.532152230+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AUSF&service-names=nudm-ueau&target-nf-type=UDM |  |
+2025-06-16T01:37:20.532680768+08:00[36m [INFO][UDM][UEAU] [0mHandle GenerateAuthDataRequest
+2025-06-16T01:37:20.532978758+08:00[36m [INFO][UDM][Suci] [0msuciPart: [suci 0 208 93 0 0 0 00007487]
+2025-06-16T01:37:20.533242525+08:00[36m [INFO][UDM][Suci] [0mscheme 0
+2025-06-16T01:37:20.533267406+08:00[36m [INFO][UDM][Suci] [0mSUPI type is IMSI
+http://127.0.0.10:8000
+2025-06-16T01:37:20.533952737+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.534944677+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=UDM&target-nf-type=UDR |  |
+2025-06-16T01:37:20.536221899+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-subscription |  |
+2025-06-16T01:37:20.539564373+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PATCH   | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-subscription |  |
+2025-06-16T01:37:20.539705814+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | POST    | /nudm-ueau/v1/suci-0-208-93-0-0-0-00007487/security-information/generate-auth-data |  |
+2025-06-16T01:37:20.539940748+08:00[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0-0-0-00007487, imsi-2089300007487) to map.
+2025-06-16T01:37:20.540208366+08:00[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2025-06-16T01:37:20.540360024+08:00[36m [INFO][AUSF][5gAka] [0mXresStar = 3430303064616337383565613530376432323734643637316330343738636633
+2025-06-16T01:37:20.540560516+08:00[36m [INFO][AUSF][GIN] [0m| 201 |       127.0.0.1 | POST    | /nausf-auth/v1/ue-authentications |  |
+2025-06-16T01:37:20.541392886+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2025-06-16T01:37:20.541463658+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:20.541586727+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2025-06-16T01:37:20.542045549+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:20.542101905+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:20.542135442+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2025-06-16T01:37:20.542139126+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2025-06-16T01:37:20.542142898+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2025-06-16T01:37:20.542602140+08:00[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2025-06-16T01:37:20.542661046+08:00[36m [INFO][AUSF][5gAka] [0mres*: 3430303064616337383565613530376432323734643637316330343738636633
+Xres*: 3430303064616337383565613530376432323734643637316330343738636633
+2025-06-16T01:37:20.542672311+08:00[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2025-06-16T01:37:20.543256415+08:00[36m [INFO][UDM][UEAU] [0mHandle ConfirmAuthDataRequest
+2025-06-16T01:37:20.544383669+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PUT     | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-status |  |
+2025-06-16T01:37:20.544480849+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudm-ueau/v1/imsi-2089300007487/auth-events |  |
+2025-06-16T01:37:20.544529193+08:00[36m [INFO][AUSF][GIN] [0m| 200 |       127.0.0.1 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0-0-0-00007487/5g-aka-confirmation |  |
+2025-06-16T01:37:20.544663068+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2025-06-16T01:37:20.544677360+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Security Mode Command
+2025-06-16T01:37:20.544687801+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:20.544776698+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mStart T3560 timer
+Security Header Type Integrity Protected With New 5g Nas Security Context
+cmac value: 0x74553029
+err <nil>
+2025-06-16T01:37:20.545195833+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:20.545246363+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:20.545273191+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2025-06-16T01:37:20.545276200+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle Security Mode Complete
+2025-06-16T01:37:20.545279160+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mStop T3560 timer
+2025-06-16T01:37:20.545337346+08:00[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2025-06-16T01:37:20.545348172+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle InitialRegistration
+2025-06-16T01:37:20.545860169+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.547190223+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=UDM |  |
+2025-06-16T01:37:20.548030257+08:00[36m [INFO][UDM][SDM] [0mHandle GetNssai
+2025-06-16T01:37:20.548400563+08:00[36m [INFO][UDR][DataRepo] [0mQueryAmDataProcedure: ueId: imsi-2089300007487, servingPlmnId: 20893
+2025-06-16T01:37:20.549197791+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/am-data |  |
+2025-06-16T01:37:20.549327377+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/nssai?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:20.550163002+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.551285691+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=UDM |  |
+2025-06-16T01:37:20.552373787+08:00[36m [INFO][UDM][UECM] [0mHandle RegistrationAmf3gppAccess
+2025-06-16T01:37:20.552425336+08:00[36m [INFO][UDM][UECM] [0mUEID: imsi-2089300007487
+2025-06-16T01:37:20.554067903+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PUT     | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/amf-3gpp-access |  |
+2025-06-16T01:37:20.554295734+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nudm-uecm/v1/imsi-2089300007487/registrations/amf-3gpp-access |  |
+2025-06-16T01:37:20.554973238+08:00[36m [INFO][UDM][SDM] [0mHandle GetAmData
+2025-06-16T01:37:20.555685358+08:00[36m [INFO][UDR][DataRepo] [0mQueryAmDataProcedure: ueId: imsi-2089300007487, servingPlmnId: 20893
+2025-06-16T01:37:20.556199859+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/am-data?supported-features=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:20.556334751+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/am-data?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:20.556631170+08:00[36m [INFO][UDM][SDM] [0mHandle GetSmfSelectData
+2025-06-16T01:37:20.557686825+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/smf-selection-subscription-data |  |
+2025-06-16T01:37:20.558092426+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/smf-select-data?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:20.559524556+08:00[36m [INFO][UDM][SDM] [0mHandle GetUeContextInSmfData
+2025-06-16T01:37:20.560387822+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/smf-registrations |  |
+2025-06-16T01:37:20.560637973+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/ue-context-in-smf-data |  |
+2025-06-16T01:37:20.561158614+08:00[36m [INFO][UDM][SDM] [0mHandle Subscribe
+2025-06-16T01:37:20.561300283+08:00[36m [INFO][UDR][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/sdm-subscriptions |  |
+2025-06-16T01:37:20.561442151+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudm-sdm/v1/imsi-2089300007487/sdm-subscriptions |  |
+2025-06-16T01:37:20.561855162+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.562898581+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=PCF |  |
+2025-06-16T01:37:20.563930755+08:00[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2025-06-16T01:37:20.564093092+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.565162147+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=PCF&target-nf-type=UDR |  |
+2025-06-16T01:37:20.566395468+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/policy-data/ues/imsi-2089300007487/am-data |  |
+2025-06-16T01:37:20.566735266+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:20.568133480+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?guami=%7B%22plmnId%22%3A%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D%2C%22amfId%22%3A%22cafe00%22%7D&requester-nf-type=PCF&target-nf-type=AMF |  |
+2025-06-16T01:37:20.569584209+08:00[36m [INFO][AMF][Comm] [0mHandle AMF Status Change Subscribe Request
+2025-06-16T01:37:20.569647743+08:00[36m [INFO][AMF][Comm] [0mnew AMF Status Subscription[1]
+2025-06-16T01:37:20.569665614+08:00[36m [INFO][AMF][GIN] [0m| 201 |       127.0.0.1 | POST    | /namf-comm/v1/subscriptions |  |
+2025-06-16T01:37:20.570144378+08:00[36m [INFO][PCF][GIN] [0m| 201 |       127.0.0.1 | POST    | /npcf-am-policy-control/v1/policies |  |
+2025-06-16T01:37:20.570913065+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Registration Accept
+2025-06-16T01:37:20.570944149+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Initial Context Setup Request
+2025-06-16T01:37:20.571205960+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mStart T3550 timer
+2025-06-16T01:37:20.571575955+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle InitialContextSetupResponse
+2025-06-16T01:37:20.571651561+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 1)
+2025-06-16T01:37:20.774497521+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:20.774746801+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:20.774792519+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2025-06-16T01:37:20.774797264+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle Registration Complete
+2025-06-16T01:37:20.774803166+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mStop T3550 timer
+2025-06-16T01:37:20.774863419+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Configuration Update Command
+2025-06-16T01:37:20.775039386+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:20.775144713+08:00[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+2025-06-16T01:37:21.276130680+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:21.276152209+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:21.276185113+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Registered] to [Registered]
+2025-06-16T01:37:21.276189808+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Initialize Deregistration], transition from [Registered] to [DeregistrationInitiated]
+2025-06-16T01:37:21.276193856+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle Deregistration Request(UE Originating)
+2025-06-16T01:37:21.276901294+08:00[36m [INFO][PCF][AmPol] [0mHandle AM Policy Association Delete
+2025-06-16T01:37:21.276998282+08:00[36m [INFO][PCF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /npcf-am-policy-control/v1/policies/imsi-2089300007487-1 |  |
+2025-06-16T01:37:21.277438826+08:00[36m [INFO][UDM][SDM] [0mHandle Unsubscribe
+2025-06-16T01:37:21.277965082+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/sdm-subscriptions/1 |  |
+2025-06-16T01:37:21.278194510+08:00[36m [INFO][UDM][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nudm-sdm/v1/imsi-2089300007487/sdm-subscriptions/1 |  |
+2025-06-16T01:37:21.278645278+08:00[36m [INFO][UDM][UECM] [0mHandle UpdateAmf3gppAccessRequest
+2025-06-16T01:37:21.278655998+08:00[36m [INFO][UDM][UECM] [0mUpdateAmf3gppAccess - deregistration
+2025-06-16T01:37:21.281253916+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PATCH   | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/amf-3gpp-access |  |
+2025-06-16T01:37:21.281349201+08:00[36m [INFO][UDM][GIN] [0m| 204 |       127.0.0.1 | PATCH   | /nudm-uecm/v1/imsi-2089300007487/registrations/amf-3gpp-access |  |
+2025-06-16T01:37:21.281592683+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:1(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Deregistration Accept
+2025-06-16T01:37:21.281614573+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:21.281663367+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mSend UE Context Release Command
+2025-06-16T01:37:21.281749002+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Deregistration Accept], transition from [DeregistrationInitiated] to [Deregistered]
+Security header type: Integrity Protected And Ciphered
+cmac value: 0xa85d12ab
+err <nil>
+2025-06-16T01:37:21.776592484+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UEContextReleaseComplete
+2025-06-16T01:37:21.776609842+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:1(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UEContextReleaseComplete (RAN UE NGAP ID: 1)
+2025-06-16T01:37:21.776631286+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mRelease UE[imsi-2089300007487] Context : Release Ue Context
+2025-06-16T01:37:21.776642386+08:00[36m [INFO][AMF][CTX] [0mAmfUe[imsi-2089300007487] is removed
+2025-06-16T01:37:21.978591133+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle InitialUEMessage
+2025-06-16T01:37:21.978761666+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mNew RanUe [RanUeNgapID:1][AmfUeNgapID:2]
+2025-06-16T01:37:21.978777654+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0m5GSMobileIdentity ["5G-GUTI":"20893cafe0000000001", err: <nil>]
+2025-06-16T01:37:21.978814859+08:00[36m [INFO][AMF][CTX] [0mNew AmfUe [supi:][guti:20893cafe0000000002]
+2025-06-16T01:37:21.978883114+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Deregistered] to [Deregistered]
+2025-06-16T01:37:21.978889045+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mHandle Registration Request
+2025-06-16T01:37:21.978892876+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mRegistrationType: Initial Registration
+2025-06-16T01:37:21.978898394+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mMobileIdentity5GS: GUTI[20893cafe0000000001]
+2025-06-16T01:37:21.978905228+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Start Authentication], transition from [Deregistered] to [Authentication]
+2025-06-16T01:37:21.978909298+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2025-06-16T01:37:21.978911943+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mSend Identity Request
+2025-06-16T01:37:21.978915849+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:21.979378221+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:21.979432590+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:21.979459909+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2025-06-16T01:37:21.979463114+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mHandle Identity Response
+2025-06-16T01:37:21.979476428+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Restart], transition from [Authentication] to [Authentication]
+2025-06-16T01:37:21.979478529+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mAuthentication procedure
+2025-06-16T01:37:21.980298325+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:21.981076860+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&target-nf-type=AUSF |  |
+2025-06-16T01:37:21.981799079+08:00[36m [INFO][AUSF][UeAuth] [0mHandleUeAuthPostRequest
+2025-06-16T01:37:21.981833240+08:00[36m [INFO][AUSF][UeAuth] [0mServing network authorized
+2025-06-16T01:37:21.982671991+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:21.983623779+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AUSF&service-names=nudm-ueau&target-nf-type=UDM |  |
+2025-06-16T01:37:21.984291207+08:00[36m [INFO][UDM][UEAU] [0mHandle GenerateAuthDataRequest
+2025-06-16T01:37:21.984361285+08:00[36m [INFO][UDM][Suci] [0msuciPart: [suci 0 208 93 0 0 0 00007487]
+2025-06-16T01:37:21.984367176+08:00[36m [INFO][UDM][Suci] [0mscheme 0
+2025-06-16T01:37:21.984369469+08:00[36m [INFO][UDM][Suci] [0mSUPI type is IMSI
+2025-06-16T01:37:21.985500408+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-subscription |  |
+2025-06-16T01:37:21.988020421+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PATCH   | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-subscription |  |
+2025-06-16T01:37:21.988148437+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | POST    | /nudm-ueau/v1/suci-0-208-93-0-0-0-00007487/security-information/generate-auth-data |  |
+2025-06-16T01:37:21.988217305+08:00[36m [INFO][AUSF][UeAuth] [0mAdd SuciSupiPair (suci-0-208-93-0-0-0-00007487, imsi-2089300007487) to map.
+2025-06-16T01:37:21.988222504+08:00[36m [INFO][AUSF][UeAuth] [0mUse 5G AKA auth method
+2025-06-16T01:37:21.988225857+08:00[36m [INFO][AUSF][5gAka] [0mXresStar = 3261303762323463303732346439636237373635373835646536323939303731
+2025-06-16T01:37:21.988244504+08:00[36m [INFO][AUSF][GIN] [0m| 201 |       127.0.0.1 | POST    | /nausf-auth/v1/ue-authentications |  |
+2025-06-16T01:37:21.988299077+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mSend Authentication Request
+2025-06-16T01:37:21.988361024+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:21.988418896+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mStart T3560 timer
+2025-06-16T01:37:21.988855282+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:21.989010443+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:21.989035628+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [Authentication] to [Authentication]
+2025-06-16T01:37:21.989038632+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mHandle Authentication Response
+2025-06-16T01:37:21.989041569+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:] [0mStop T3560 timer
+2025-06-16T01:37:21.989739385+08:00[36m [INFO][AUSF][5gAka] [0mAuth5gAkaComfirmRequest
+2025-06-16T01:37:21.989769608+08:00[36m [INFO][AUSF][5gAka] [0mres*: 3261303762323463303732346439636237373635373835646536323939303731
+Xres*: 3261303762323463303732346439636237373635373835646536323939303731
+2025-06-16T01:37:21.989779341+08:00[36m [INFO][AUSF][5gAka] [0m5G AKA confirmation succeeded
+2025-06-16T01:37:21.989983536+08:00[36m [INFO][UDM][UEAU] [0mHandle ConfirmAuthDataRequest
+2025-06-16T01:37:21.991312719+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PUT     | /nudr-dr/v1/subscription-data/imsi-2089300007487/authentication-data/authentication-status |  |
+2025-06-16T01:37:21.991419085+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudm-ueau/v1/imsi-2089300007487/auth-events |  |
+2025-06-16T01:37:21.991458752+08:00[36m [INFO][AUSF][GIN] [0m| 200 |       127.0.0.1 | PUT     | /nausf-auth/v1/ue-authentications/suci-0-208-93-0-0-0-00007487/5g-aka-confirmation |  |
+2025-06-16T01:37:21.991615832+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Authentication Success], transition from [Authentication] to [SecurityMode]
+2025-06-16T01:37:21.991725218+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Security Mode Command
+2025-06-16T01:37:21.991777653+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:21.991860471+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mStart T3560 timer
+Security Header Type Integrity Protected With New 5g Nas Security Context
+cmac value: 0xa6632e1e
+err <nil>
+2025-06-16T01:37:21.992154419+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:21.992204004+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:21.992232049+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [SecurityMode] to [SecurityMode]
+2025-06-16T01:37:21.992235225+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle Security Mode Complete
+2025-06-16T01:37:21.992238270+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mStop T3560 timer
+2025-06-16T01:37:21.992253531+08:00[36m [INFO][AMF][Gmm] [0mHandle event[SecurityMode Success], transition from [SecurityMode] to [ContextSetup]
+2025-06-16T01:37:21.992256594+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle InitialRegistration
+2025-06-16T01:37:21.992693316+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:21.993801098+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=UDM |  |
+2025-06-16T01:37:21.994681556+08:00[36m [INFO][UDM][SDM] [0mHandle GetNssai
+2025-06-16T01:37:21.995218860+08:00[36m [INFO][UDR][DataRepo] [0mQueryAmDataProcedure: ueId: imsi-2089300007487, servingPlmnId: 20893
+2025-06-16T01:37:21.997468437+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/am-data |  |
+2025-06-16T01:37:21.997663333+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/nssai?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:21.998775922+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:22.000013213+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=UDM |  |
+2025-06-16T01:37:22.000528971+08:00[36m [INFO][UDM][UECM] [0mHandle RegistrationAmf3gppAccess
+2025-06-16T01:37:22.000579873+08:00[36m [INFO][UDM][UECM] [0mUEID: imsi-2089300007487
+2025-06-16T01:37:22.001808417+08:00[36m [INFO][UDR][GIN] [0m| 204 |       127.0.0.1 | PUT     | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/amf-3gpp-access |  |
+2025-06-16T01:37:22.001978933+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | PUT     | /nudm-uecm/v1/imsi-2089300007487/registrations/amf-3gpp-access |  |
+2025-06-16T01:37:22.002405208+08:00[36m [INFO][UDM][SDM] [0mHandle GetAmData
+2025-06-16T01:37:22.002666511+08:00[36m [INFO][UDR][DataRepo] [0mQueryAmDataProcedure: ueId: imsi-2089300007487, servingPlmnId: 20893
+2025-06-16T01:37:22.003529972+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/am-data?supported-features=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:22.004229651+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/am-data?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:22.004755623+08:00[36m [INFO][UDM][SDM] [0mHandle GetSmfSelectData
+2025-06-16T01:37:22.005457137+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/20893/provisioned-data/smf-selection-subscription-data |  |
+2025-06-16T01:37:22.005601248+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/smf-select-data?plmn-id=%7B%22mcc%22%3A%22208%22%2C%22mnc%22%3A%2293%22%7D |  |
+2025-06-16T01:37:22.005699461+08:00[36m [INFO][UDM][SDM] [0mHandle GetUeContextInSmfData
+2025-06-16T01:37:22.006690975+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/smf-registrations |  |
+2025-06-16T01:37:22.007571393+08:00[36m [INFO][UDM][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudm-sdm/v1/imsi-2089300007487/ue-context-in-smf-data |  |
+2025-06-16T01:37:22.008409827+08:00[36m [INFO][UDM][SDM] [0mHandle Subscribe
+2025-06-16T01:37:22.009694199+08:00[36m [INFO][UDR][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudr-dr/v1/subscription-data/imsi-2089300007487/context-data/sdm-subscriptions |  |
+2025-06-16T01:37:22.010696175+08:00[36m [INFO][UDM][GIN] [0m| 201 |       127.0.0.1 | POST    | /nudm-sdm/v1/imsi-2089300007487/sdm-subscriptions |  |
+2025-06-16T01:37:22.012139998+08:00[36m [INFO][NRF][DISC] [0mHandle NFDiscoveryRequest
+2025-06-16T01:37:22.013609875+08:00[36m [INFO][NRF][GIN] [0m| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=AMF&supi=imsi-2089300007487&target-nf-type=PCF |  |
+2025-06-16T01:37:22.015344690+08:00[36m [INFO][PCF][AmPol] [0mHandle AM Policy Create Request
+2025-06-16T01:37:22.016448885+08:00[36m [INFO][UDR][GIN] [0m| 200 |       127.0.0.1 | GET     | /nudr-dr/v1/policy-data/ues/imsi-2089300007487/am-data |  |
+2025-06-16T01:37:22.017113423+08:00[36m [INFO][PCF][GIN] [0m| 201 |       127.0.0.1 | POST    | /npcf-am-policy-control/v1/policies |  |
+2025-06-16T01:37:22.017660369+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Registration Accept
+2025-06-16T01:37:22.017758947+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Initial Context Setup Request
+2025-06-16T01:37:22.017997578+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mStart T3550 timer
+2025-06-16T01:37:22.019510891+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle InitialContextSetupResponse
+2025-06-16T01:37:22.019527751+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle InitialContextSetupResponse (RAN UE NGAP ID: 1)
+2025-06-16T01:37:22.223111054+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport
+2025-06-16T01:37:22.223241840+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mHandle UplinkNASTransport (RAN UE NGAP ID: 1)
+2025-06-16T01:37:22.223285115+08:00[36m [INFO][AMF][Gmm] [0mHandle event[Gmm Message], transition from [ContextSetup] to [ContextSetup]
+2025-06-16T01:37:22.223293041+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mHandle Registration Complete
+2025-06-16T01:37:22.223296963+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mStop T3550 timer
+2025-06-16T01:37:22.223353809+08:00[36m [INFO][AMF][Gmm][amf_ue_ngap_id:RU:1,AU:2(3GPP)][supi:SUPI:imsi-2089300007487] [0mSend Configuration Update Command
+2025-06-16T01:37:22.223361837+08:00[36m [INFO][AMF][Ngap][amf_ue_ngap_id:RU:1,AU:2(3GPP)][ran_addr:127.0.0.1:9487] [0mSend Downlink Nas Transport
+2025-06-16T01:37:22.223555256+08:00[36m [INFO][AMF][Gmm] [0mHandle event[ContextSetup Success], transition from [ContextSetup] to [Registered]
+SCTPConn: SCTPWrite failed bad file descriptor
+2025-06-16T01:37:23.229935215+08:00[36m [INFO][AMF][Ngap] [0mHandle SCTP Notification[addr: <nil>]
+2025-06-16T01:37:23.230000022+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mSCTP_SHUTDOWN_EVENT notification, close the connection
+2025-06-16T01:37:23.230013500+08:00[36m [INFO][AMF][Ngap][ran_addr:127.0.0.1:9487] [0mRemove RAN Context[ID: <PlmnID: {Mcc:208 Mnc:93}, GNbID: 000102>]
+2025-06-16T01:37:23.230073606+08:00[36m [INFO][AMF][Ngap] [0mHandle SCTP Notification[addr: <nil>]
+2025-06-16T01:37:23.230077796+08:00[33m [WARN][AMF][Ngap] [0mRAN context has been removed[addr: <nil>]
+2025-06-16T01:37:23.230243490+08:00[36m [INFO][AMF][Ngap] [0mHandle SCTP Connection Error[addr: <nil>] - remove RAN
+2025-06-16T01:37:23.230310553+08:00[33m [WARN][AMF][Ngap] [0mRAN context has been removed[addr: <nil>]
+SCTPConn: SCTPWrite failed bad file descriptor
+2025-06-16T01:37:23.230585746+08:00[36m [INFO][SMF][Main] [0mTerminating SMF...
+2025-06-16T01:37:23.230744156+08:00[36m [INFO][NSSF][Main] [0mTerminating NSSF...
+2025-06-16T01:37:23.230807069+08:00[36m [INFO][NSSF][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.230991981+08:00[36m [INFO][CHF][Main] [0mTerminating CHF...
+2025-06-16T01:37:23.231008730+08:00[36m [INFO][CHF][SBI] [0mStop SBI server (listen on 127.0.0.113:8000)
+2025-06-16T01:37:23.231129349+08:00[36m [INFO][CHF][SBI] [0mSBI server (listen on 127.0.0.113:8000) stopped
+2025-06-16T01:37:23.231143332+08:00[36m [INFO][CHF][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.231177276+08:00[36m [INFO][CHF][Acct] [0mABMF server stopped
+2025-06-16T01:37:23.231245013+08:00[36m [INFO][CHF][CGF] [0mRating Function server stopped
+2025-06-16T01:37:23.231481205+08:00[36m [INFO][UDR][Main] [0mTerminating UDR...
+2025-06-16T01:37:23.231663828+08:00[36m [INFO][UDR][SBI] [0mSBI server (listen on 127.0.0.4:8000) stopped
+2025-06-16T01:37:23.231732258+08:00[36m [INFO][UDR][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.231800968+08:00[36m [INFO][UDM][Main] [0mTerminating UDM...
+2025-06-16T01:37:23.231870026+08:00[36m [INFO][UDM][SBI] [0mStop SBI server (listen on 127.0.0.3:8000)
+2025-06-16T01:37:23.231950476+08:00[36m [INFO][UDM][SBI] [0mSBI server (listen on 127.0.0.3:8000) stopped
+2025-06-16T01:37:23.232012099+08:00[36m [INFO][UDM][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.232040409+08:00[36m [INFO][AMF][Main] [0mTerminating AMF...
+2025-06-16T01:37:23.232052440+08:00[36m [INFO][AMF][SBI] [0mStop SBI server (listen on 127.0.0.18:8000)
+2025-06-16T01:37:23.232081801+08:00[33m [WARN][AMF][SBI] [0mSBI server (listen on 127.0.0.18:8000) stopped
+2025-06-16T01:37:23.232087724+08:00[36m [INFO][AMF][Consumer] [0m[AMF] Send Deregister NFInstance
+2025-06-16T01:37:23.232126066+08:00[36m [INFO][AUSF][Main] [0mTerminating AUSF...
+2025-06-16T01:37:23.232192126+08:00[36m [INFO][AUSF][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.232151361+08:00[36m [INFO][PCF][Main] [0mTerminating PCF...
+2025-06-16T01:37:23.232245068+08:00[36m [INFO][PCF][SBI] [0mStop SBI server (listen on 127.0.0.7:8000)
+2025-06-16T01:37:23.232351634+08:00[36m [INFO][PCF][SBI] [0mSBI server (listen on 127.0.0.7:8000) stopped
+2025-06-16T01:37:23.232414434+08:00[36m [INFO][PCF][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.230701059+08:00[36m [INFO][NRF][Main] [0mTerminating NRF...
+2025-06-16T01:37:23.232524371+08:00[36m [INFO][NRF][Main] [0mWaiting for 5s for other NFs to deregister
+2025-06-16T01:37:23.231655779+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232662016+08:00[36m [INFO][SMF][Consumer] [0mSend Deregister NFInstance
+2025-06-16T01:37:23.231705122+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.231965719+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232241002+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232281099+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232456733+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232505085+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.232889148+08:00[36m [INFO][NRF][NFM] [0mHandle NFDeregisterRequest
+2025-06-16T01:37:23.744769203+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: PCF [c1d09881-271e-429f-8944-e4d990016d3c]
+2025-06-16T01:37:23.745221266+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/c1d09881-271e-429f-8944-e4d990016d3c |  |
+2025-06-16T01:37:23.745200664+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: CHF [44a57f46-7b34-452c-bfb2-b134e31dec83]
+2025-06-16T01:37:23.745888530+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/44a57f46-7b34-452c-bfb2-b134e31dec83 |  |
+2025-06-16T01:37:23.746019295+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: UDR [a12c43e1-0397-4709-b3ac-fb8a76347452]
+2025-06-16T01:37:23.746036089+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/a12c43e1-0397-4709-b3ac-fb8a76347452 |  |
+2025-06-16T01:37:23.746424954+08:00[36m [INFO][PCF][Init] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.746506254+08:00[36m [INFO][PCF][Init] [0mPCF terminated
+2025-06-16T01:37:23.746517748+08:00[36m [INFO][PCF][Main] [0mPCF App is terminated
+2025-06-16T01:37:23.746733291+08:00[36m [INFO][CHF][Main] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.746821713+08:00[36m [INFO][CHF][Main] [0mCHF SBI Server terminated
+2025-06-16T01:37:23.746836668+08:00[36m [INFO][CHF][Main] [0mCHF App is terminated
+2025-06-16T01:37:23.746849597+08:00[36m [INFO][UDR][Init] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.746859159+08:00[36m [INFO][UDR][Main] [0mUDR terminated
+2025-06-16T01:37:23.746889923+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: NSSF [7386b557-7777-4dd7-b3ad-69565e33645c]
+2025-06-16T01:37:23.747021437+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/7386b557-7777-4dd7-b3ad-69565e33645c |  |
+2025-06-16T01:37:23.747113522+08:00[36m [INFO][NSSF][Init] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.747284822+08:00[36m [INFO][NSSF][Main] [0mNSSF terminated
+2025-06-16T01:37:23.747282455+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: SMF [40376d1a-f7f3-455c-92eb-1e0e890bdc37]
+2025-06-16T01:37:23.747300957+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/40376d1a-f7f3-455c-92eb-1e0e890bdc37 |  |
+2025-06-16T01:37:23.747322333+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: AUSF [959fd59d-8b26-4af5-a922-c9de82a20abf]
+2025-06-16T01:37:23.747336486+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/959fd59d-8b26-4af5-a922-c9de82a20abf |  |
+2025-06-16T01:37:23.747550637+08:00[36m [INFO][SMF][Main] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.747669634+08:00[36m [INFO][SMF][SBI] [0mStop SBI server (listen on 127.0.0.2:8000)
+2025-06-16T01:37:23.747686472+08:00[36m [INFO][AUSF][Main] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.747697836+08:00[36m [INFO][AUSF][Main] [0mAUSF SBI Server terminated
+2025-06-16T01:37:23.747706688+08:00[36m [INFO][SMF][SBI] [0mSBI server (listen on 127.0.0.2:8000) stopped
+2025-06-16T01:37:23.747702980+08:00[36m [INFO][AUSF][SBI] [0mStop SBI server (listen on 127.0.0.9:8000)
+2025-06-16T01:37:23.747732598+08:00[36m [INFO][AUSF][SBI] [0mSBI server (listen on 127.0.0.9:8000) stopped
+2025-06-16T01:37:23.747746810+08:00[36m [INFO][AUSF][Main] [0mAUSF App is terminated
+2025-06-16T01:37:23.747752772+08:00[36m [INFO][SMF][Main] [0mSMF SBI Server terminated
+2025-06-16T01:37:23.747758482+08:00[36m [INFO][SMF][Main] [0mSMF App is terminated
+2025-06-16T01:37:23.747779997+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: UDM [5566b0b9-d921-4532-aa65-106bc6636abd]
+2025-06-16T01:37:23.747787682+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/5566b0b9-d921-4532-aa65-106bc6636abd |  |
+2025-06-16T01:37:23.747963813+08:00[36m [INFO][UDM][Main] [0mDeregister from NRF successfully
+2025-06-16T01:37:23.748039336+08:00[36m [INFO][UDM][Main] [0mUDM SBI Server terminated
+2025-06-16T01:37:23.748051713+08:00[36m [INFO][UDM][Main] [0mUDM App is terminated
+2025-06-16T01:37:23.751093009+08:00[36m [INFO][NRF][NFM] [0mNfDeregister Success: AMF [ef75c36b-9618-4306-a996-03b1cbab92c1]
+2025-06-16T01:37:23.751210557+08:00[36m [INFO][NRF][GIN] [0m| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/ef75c36b-9618-4306-a996-03b1cbab92c1 |  |
+2025-06-16T01:37:23.751476234+08:00[36m [INFO][AMF][Main] [0m[AMF] Deregister from NRF successfully
+2025-06-16T01:37:23.751515738+08:00[36m [INFO][AMF][Main] [0mSend AMF Status Indication to Notify RANs due to AMF terminating
+2025-06-16T01:37:23.751535941+08:00[36m [INFO][AMF][Ngap] [0mClose SCTP server...
+SCTP: Failed to shutdown fd operation not supported
+2025-06-16T01:37:23.751682207+08:00[36m [INFO][AMF][Ngap] [0mSCTP server closed
+2025-06-16T01:37:23.751707205+08:00[36m [INFO][AMF][Producer] [0m[AMF] Send Amf Status Change Notify to http://127.0.0.7:8000/npcf-callback/v1/amfstatus
+2025-06-16T01:37:23.752100544+08:00[31m [ERRO][AMF][Http] [0mPost "http://127.0.0.7:8000/npcf-callback/v1/amfstatus": dial tcp 127.0.0.7:8000: connect: connection refused
+2025-06-16T01:37:23.753053420+08:00[36m [INFO][AMF][Main] [0mAMF App is terminated
+2025-06-16T01:37:23.832682276+08:00[36m [INFO][NRF][Main] [0mAll Register NF had been deregister
+2025-06-16T01:37:23.832762112+08:00[36m [INFO][NRF][Main] [0mRemove NF Profile...
+2025-06-16T01:37:23.838826314+08:00[36m [INFO][NRF][SBI] [0mSBI server (listen on 127.0.0.10:8000) stopped
+2025-06-16T01:37:23.839134042+08:00[36m [INFO][NRF][Init] [0mNRF App terminated
+--- PASS: TestGUTIRegistration (3.32s)
+PASS
+ok  	test	6.200s
+
+--- STDERR ---
+2025-06-16T01:37:14.124450149+08:00[36m [INFO][UPF][Main] [0mUPF version:  
+	Not specify ldflags (which link version) during go build
+	go version: go1.21.8 linux/amd64
+2025-06-16T01:37:14.124559001+08:00[36m [INFO][UPF][CFG] [0mRead config from [./config/upfcfg.test.yaml]
+2025-06-16T01:37:14.124960516+08:00[36m [INFO][UPF][CFG] [0m==================================================
+2025-06-16T01:37:14.125015519+08:00[36m [INFO][UPF][CFG] [0m(*factory.Config)(0xc000079d10)({
+	Version: (string) (len=5) "1.0.3",
+	Description: (string) (len=31) "UPF initial local configuration",
+	Pfcp: (*factory.Pfcp)(0xc000174b70)({
+		Addr: (string) (len=14) "10.200.200.101",
+		NodeID: (string) (len=14) "10.200.200.101",
+		RetransTimeout: (time.Duration) 1s,
+		MaxRetrans: (uint8) 3
+	}),
+	Gtpu: (*factory.Gtpu)(0xc000174f00)({
+		Forwarder: (string) (len=5) "gtp5g",
+		IfList: ([]factory.IfInfo) (len=1 cap=1) {
+			(factory.IfInfo) {
+				Addr: (string) (len=14) "10.200.200.102",
+				Type: (string) (len=2) "N3",
+				Name: (string) "",
+				IfName: (string) "",
+				MTU: (uint32) 0
+			}
+		}
+	}),
+	DnnList: ([]factory.DnnList) (len=1 cap=1) {
+		(factory.DnnList) {
+			Dnn: (string) (len=8) "internet",
+			Cidr: (string) (len=12) "10.60.0.0/16",
+			NatIfName: (string) ""
+		}
+	},
+	Logger: (*factory.Logger)(0xc0004adea0)({
+		Enable: (bool) true,
+		Level: (string) (len=4) "info",
+		ReportCaller: (bool) false
+	})
+})
+2025-06-16T01:37:14.125022131+08:00[36m [INFO][UPF][CFG] [0m==================================================
+2025-06-16T01:37:14.125025094+08:00[36m [INFO][UPF][Main] [0mLog level is set to [info]
+2025-06-16T01:37:14.125027408+08:00[36m [INFO][UPF][Main] [0mReport Caller is set to [false]
+2025-06-16T01:37:14.125093903+08:00[36m [INFO][UPF][Main] [0mstarting Gtpu Forwarder [gtp5g]
+2025-06-16T01:37:14.125105141+08:00[36m [INFO][UPF][Main] [0mGTP Address: "10.200.200.102:2152"
+2025-06-16T01:37:14.131416257+08:00[36m [INFO][UPF][BUFF] [0mbuff netlink server started
+2025-06-16T01:37:14.131613994+08:00[36m [INFO][UPF][Gtp5g] [0mForwarder started
+2025-06-16T01:37:14.131737017+08:00[36m [INFO][UPF][Perio] [0mperio server started
+2025-06-16T01:37:14.132123569+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mstarting pfcp server
+2025-06-16T01:37:14.132219477+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mpfcp server started
+2025-06-16T01:37:14.132227770+08:00[36m [INFO][UPF][Main] [0mUPF started
+2025-06-16T01:37:19.114770051+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mhandleAssociationSetupRequest
+2025-06-16T01:37:19.114855775+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805][CPNodeID:10.200.200.1] [0mNew node
+2025-06-16T01:37:26.871091810+08:00[36m [INFO][UPF][Main] [0mShutdown UPF ...
+2025-06-16T01:37:26.871345209+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mStopping pfcp server
+2025-06-16T01:37:26.871851863+08:00[31m [ERRO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mread udp4 10.200.200.101:8805: use of closed network connection
+2025-06-16T01:37:26.872095596+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mpfcp reciver stopped
+2025-06-16T01:37:26.872114653+08:00[36m [INFO][UPF][PFCP][LAddr:10.200.200.101:8805] [0mpfcp server stopped
+2025-06-16T01:37:26.919318637+08:00[36m [INFO][UPF][Perio] [0mrecv event[TYPE_SERVER_CLOSE][{eType:4 lSeid:0 urrid:0 period:0}]
+2025-06-16T01:37:26.919338281+08:00[36m [INFO][UPF][Perio] [0mperio server stopped
+2025-06-16T01:37:26.919344730+08:00[36m [INFO][UPF][Main] [0mTerminating UPF...
+2025-06-16T01:37:26.919347520+08:00[36m [INFO][UPF][Main] [0mUPF terminated
+2025-06-16T01:37:26.919349870+08:00[36m [INFO][UPF][Main] [0mUPF exited

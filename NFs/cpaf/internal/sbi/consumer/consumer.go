@@ -1,0 +1,93 @@
+package consumer
+
+import (
+	"github.com/free5gc/cpaf/pkg/app"
+	"github.com/free5gc/openapi/Namf_Communication"
+	"github.com/free5gc/openapi/Nausf_UEAuthentication"
+	"github.com/free5gc/openapi/Nnrf_NFDiscovery"
+	"github.com/free5gc/openapi/Nnrf_NFManagement"
+	"github.com/free5gc/openapi/Nnssf_NSSelection"
+	"github.com/free5gc/openapi/Npcf_AMPolicy"
+	"github.com/free5gc/openapi/Nsmf_PDUSession"
+	"github.com/free5gc/openapi/Nudm_SubscriberDataManagement"
+	"github.com/free5gc/openapi/Nudm_UEContextManagement"
+
+	// 20241112 add for ud3
+	"github.com/free5gc/openapi/Nudr_DataRepository"
+)
+
+var consumer *Consumer
+
+type ConsumerAmf interface {
+	app.App
+}
+
+type Consumer struct {
+	ConsumerAmf
+
+	// consumer services
+	*namfService
+	*nnrfService
+	*npcfService
+	*nssfService
+	*nsmfService
+	*nudmService
+	*nausfService
+	// 20241112 add for ud3
+	*nudrService
+}
+
+func GetConsumer() *Consumer {
+	return consumer
+}
+
+func NewConsumer(amf ConsumerAmf) (*Consumer, error) {
+	c := &Consumer{
+		ConsumerAmf: amf,
+	}
+
+	c.namfService = &namfService{
+		consumer:   c,
+		ComClients: make(map[string]*Namf_Communication.APIClient),
+	}
+
+	c.nnrfService = &nnrfService{
+		consumer:        c,
+		nfMngmntClients: make(map[string]*Nnrf_NFManagement.APIClient),
+		nfDiscClients:   make(map[string]*Nnrf_NFDiscovery.APIClient),
+	}
+
+	c.npcfService = &npcfService{
+		consumer:        c,
+		AMPolicyClients: make(map[string]*Npcf_AMPolicy.APIClient),
+	}
+
+	c.nssfService = &nssfService{
+		consumer:           c,
+		NSSelectionClients: make(map[string]*Nnssf_NSSelection.APIClient),
+	}
+
+	c.nsmfService = &nsmfService{
+		consumer:          c,
+		PDUSessionClients: make(map[string]*Nsmf_PDUSession.APIClient),
+	}
+
+	c.nudmService = &nudmService{
+		consumer:                 c,
+		SubscriberDMngmntClients: make(map[string]*Nudm_SubscriberDataManagement.APIClient),
+		UEContextMngmntClients:   make(map[string]*Nudm_UEContextManagement.APIClient),
+	}
+
+	c.nausfService = &nausfService{
+		consumer:                c,
+		UEAuthenticationClients: make(map[string]*Nausf_UEAuthentication.APIClient),
+	}
+
+	// 20241112 add for ud3
+	c.nudrService = &nudrService{
+		consumer:    c,
+		nfDRClients: make(map[string]*Nudr_DataRepository.APIClient),
+	}
+	consumer = c
+	return c, nil
+}
